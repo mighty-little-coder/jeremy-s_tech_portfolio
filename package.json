@@ -9,7 +9,7 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "dev": "npm run start && npm run build && npm run lint && node index.js",
+    "dev": "npm run build && npm run start && node index.js",
     "start": "vite",
     "build": "vite build",
     "lint": "eslint src --ext js,jsx --report-unused-disable-directives --max-warnings 0",
