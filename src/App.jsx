@@ -1,6 +1,5 @@
-// src/App.jsx
-
 import React from 'react';
+import { Outlet } from 'react-router-dom';
 import Header from './components/Header';
 import Footer from './components/Footer';
 import Home from './pages/Home'; // Example import for a page component
@@ -13,10 +12,7 @@ function App() {
     <div className="App">
       <Header />
       <main>
-        <Home /> {/* Example usage of a page component */}
-        <About />
-        <Projects />
-        <Contact />
+        <Outlet />
       </main>
       <Footer />
     </div>
