@@ -2,14 +2,12 @@
 export default function AboutPage() {
   return (
     <div className="container pt-4">
+      <ul className="aboutMe_title">
+        <li>Hello!</li>
+        <li>I'm Jeremy.</li>
+        </ul>
       <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus
-        tenetur maiores, dolor iusto dolorum ullam, natus deleniti blanditiis
-        impedit suscipit sed magnam alias in, repellat expedita hic explicabo
-        architecto soluta. About us Lorem ipsum, dolor sit amet consectetur
-        adipisicing elit. Velit voluptate exercitationem quaerat pariatur
-        mollitia, excepturi, voluptatem eveniet a dolor nobis ex veniam totam
-        nostrum temporibus ad omnis nam rerum eligendi.
+        I am a Connecticut native and a recent graduate of the University of Connecticut's Full Stack Web Development Bootcamp. I am a passionate developer with a strong work-ethic and a desire to create user-friendly applications. I am a quick learner and a team player who is eager to contribute to a team and learn from others. I am excited to bring my skills to a new team and continue to grow as a developer. I have spent most of my professional career in blue collar industries as a mechanic and a hydraulic assembler on aerospace equipment. In the meantime, I have been learning many additional, mostly creative skills outside of my time in the workforce. I am a proficient dancer, videographer and mechanic and i look forward to bringing my unique skills to a new team that i can grow with!
       </p>
       <section className="features-icons bg-light text-center m-4">
         <div className="container">

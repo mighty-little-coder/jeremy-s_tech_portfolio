@@ -50,6 +50,10 @@
 
   N/A
   </br>
+  <a target="_blank" href="https://icons8.com/icon/P7UIlhbpWzZm/gmail">Gmail</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a>
+  <a target="_blank" href="https://icons8.com/icon/s1rwrv9mNnN4/github">GitHub</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a>
+  <a target="_blank" href="https://icons8.com/icon/13912/facebook">Facebook</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a>
+  <a target="_blank" href="https://icons8.com/icon/xuvGCOXi8Wyg/linkedin">LinkedIn</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a>
   </br>
   </br>
   ## How to Contribute

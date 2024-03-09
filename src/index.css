@@ -1,0 +1,87 @@
+/* BODY */
+body {
+  background-image: url(src/assets/images/long-classy-pc.png);
+  background-size: cover;
+  background-attachment: fixed;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+/* HEADER */
+header {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  background-color: #333;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  margin: 0px;
+}
+
+header h1 {
+  font-size: 80px;
+  margin: 30px;
+}
+
+header nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+header nav ul li {
+  display: inline;
+  margin-right: 10px;
+}
+
+header nav ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+header nav ul li a:hover {
+  text-decoration: underline;
+}
+
+/* CONTACT */
+
+
+/* PROJECT CARDS */
+
+
+/* MAIN */
+
+
+/* FOOTER */
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #333;
+  color: white;
+  padding: 20px;
+  text-align: center;
+
+}
+
+footer nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+footer nav ul li {
+  display: inline;
+  margin-right: 10px;
+}
+
+footer nav ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+footer nav ul li a:hover {
+  text-decoration: underline;
+}
