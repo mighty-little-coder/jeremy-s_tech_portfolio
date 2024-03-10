@@ -201,9 +201,9 @@ header nav ul li a:hover {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  width: 500px; 
-  height: auto; 
-  margin: 5px; 
+  width: 500px;
+  height: auto;
+  margin: 5px;
   border: 1px solid #ddd;
   border-radius: 5px;
 }
@@ -215,7 +215,7 @@ header nav ul li a:hover {
   justify-content: space-evenly;
   width: 45rem;
   height: 11rem;
-  background-color: rgba(255,255,255,0.4);
+  background-color: rgba(255, 255, 255, 0.4);
   border-radius: 20px;
   margin-left: 15px;
   padding: 0px 0px 0px 10px;
@@ -249,25 +249,106 @@ header nav ul li a:hover {
 
 /* RESUME */
 .resume_container {
+  text-align: center;
+  background-color: rgba(85, 85, 85, 0.7);
+  background-repeat: no-repeat;
+  margin: 0 15%;
+  border: #000000;
+  border-radius: 20px;
+  padding-bottom: 5px;
+}
+
+.resume_container h1 {
+  font-size: 40px;
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin: 0 15%;
+  margin-top: 80px;
+}
+
+.resume_container h2 {
+  font-size: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 70px 0px 40px 0px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  padding: 2%;
+  outline: none;
+  border-radius: 10px;
+  background-color: #333;
+  text-decoration: none;
+  color: rgb(149, 149, 149);
+}
+
+.resume_elements {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 20%;
+}
+
+.resume_elements h2 {
+  text-align: center;
+  width: 80%;
 }
 
 .resume_proficiencies_items {
-  /* display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin-top: 40px;
-  background-color: rgba(85, 85, 85, 0.7);
-  border-radius: 20px;
-  padding-bottom: 5px;
-  font-size: 1.7em; */
+  font-size: 1.7em;
   display: inline-flex;
   justify-content: space-evenly;
-  width: 100%;
+  width: 50%;
   font-size: 1.2rem;
+}
+
+.resume_proficiencies_items ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.resume_proficiencies_items ul li {
+  margin: 2rem;
+  padding: 2%;
+  border-radius: 10px;
+}
+
+#resume_experience {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.resume_container h2 {
+  margin: 70px 0px 40px 0px;
+}
+
+#resume_experience p {
+  margin: 10px 0px 30px 0px;
+}
+
+#resume_experience h3, h4 {
+  margin: 10px 0px 0px 0px;
+}
+
+.resumeDL {
+  margin: 50px 0 50px 0;
+}
+
+.resumeDL a {
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  padding: 2%;
+  outline: none;
+  border-radius: 10px;
+  background-color: #333;
+  text-decoration: none;
+  color: rgb(149, 149, 149);
+}
+
+.resumeDL a:hover {
+  text-decoration: none;
+  color: rgb(122, 189, 255);
 }
 
 /* ABOUTME */
@@ -306,7 +387,7 @@ header nav ul li a:hover {
 .aboutMe_header {
   font-size: 40px;
   display: flex;
-  flex-direction:row;
+  flex-direction: row;
   align-items: center;
   margin-top: 80px;
 }
@@ -316,7 +397,7 @@ header nav ul li a:hover {
   width: 40%;
   margin-top: 3% 0%;
   border-radius: 40px;
-  rotate:-5deg;
+  rotate: -5deg;
 }
 
 /* FOOTER */
