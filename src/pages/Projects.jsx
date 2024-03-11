@@ -3,8 +3,10 @@ import Project from '../components/Projects';
 import technoBlog from '../assets/imgs/techno-homepage.png';
 import gizmoGaming from '../assets/imgs/Classes.jpg';
 import employeeTracker from '../assets/imgs/employee-demo.png';
+import employeeTrackerVid from '../assets/vids/employee_tracker_demo.mp4';
 import videographyQuiz from '../assets/imgs/videography_demo.png';
 import readmeGenerator from '../assets/imgs/readme-demo.png';
+import readmeGeneratorVid from '../assets/vids/README-Generator.mp4';
 import expressNote from '../assets/imgs/note-taker-demo.png';
 
 const projects = [
@@ -27,7 +29,7 @@ const projects = [
     description: 'A command-line application that allows the user to manage a company\'s employee database.',
     imageUrl: employeeTracker,
     githubUrl: 'https://github.com/mighty-little-coder/Employee-Tracker-Tables',
-    demoUrl: 'src/assets/vids/employee_tracker_demo.mp4'
+    demoUrl: employeeTrackerVid
   },
   {
     title: 'Videography Quiz',
@@ -41,7 +43,7 @@ const projects = [
     description: 'A command-line application that dynamically generates a README.md from a user\'s input.',
     imageUrl: readmeGenerator,
     githubUrl: 'https://github.com/mighty-little-coder/Readme-Creation-Tool',
-    demoUrl: 'src/assets/vids/README-Generator.mp4'
+    demoUrl: readmeGeneratorVid
   },
   {
     title: 'ExpressNote',
