@@ -2,7 +2,7 @@ export default function AboutPage() {
   return (
     <div className="aboutMe_container">
       <div className="aboutMe_header">
-        <img src="dist/assets/images/IMG_20190710_090801_337.jpg" alt="Jeremy Doran" className="aboutMe_img" />
+        <img src="src/assets/imgs/IMG_20190710_090801_337.jpg" alt="Jeremy Doran" className="aboutMe_img" />
         <ul className="aboutMe_title">
           <li>Hello!</li>
           <li>I'm Jeremy.</li>
