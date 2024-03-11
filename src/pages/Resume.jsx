@@ -1,6 +1,6 @@
-// src/pages/Home.jsx
-
 import React from 'react';
+
+
 
 function Resume() {
   return (
@@ -80,7 +80,7 @@ function Resume() {
         </div>
       </div>
       <div className="resumeDL">
-        <a href="src/assets/pdfs/jeremy-doran-active-resume-3.10.24.pdf">Click for downloadable resume pdf file.</a>
+        <a href="src/assets/pdf/jeremy-doran-active-resume-3.10.24.pdf">Click for downloadable resume pdf file.</a>
       </div>
     </div>
   );
