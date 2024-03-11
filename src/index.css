@@ -479,6 +479,7 @@ header {
     h1 {
       font-size: 30px;
       margin-top: 1em;
+      padding-top: 3%;
     }
   }
 
@@ -512,14 +513,22 @@ header {
     margin-right: 0;
   }
 
+  .project_card {
+    margin: 10% 15%;
+  }
+
   .project_card img {
     width: 100%;
-    margin: 5px 0;
+    margin: 0;
+    border-radius: 5px 5px 0px 0px;
   }
 
   .project_details {
     width: 100%;
-    margin: 5px 0;
+    height: auto;
+    margin: 0px 0 5px 0;
+    padding-top: 5px;
+    border-radius: 0px 0px 20px 20px;
   }
 
   .project_links {
