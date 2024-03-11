@@ -9,8 +9,20 @@ function Header() {
     setActiveButton(location.pathname);
   }, [location.pathname]);
 
+  let headerClass = 'header-color-default';
+
+if (location.pathname === '/projects') {
+  headerClass = 'header-color-projects';
+} else if (location.pathname === '/contact') {
+  headerClass = 'header-color-contact';
+} else if (location.pathname === '/resume') {
+  headerClass = 'header-color-resume';
+} else {
+  headerClass = 'header-color-default';
+}
+
   return (
-    <header className='header_content'>
+    <header className={`header_content ${headerClass}`}>
       <h1>Jeremy Doran</h1>
       <h2>Professional Portfolio</h2>
       <nav className='navbar_content'>

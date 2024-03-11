@@ -454,28 +454,64 @@ footer nav ul li a:hover {
     background-repeat: no-repeat;
     padding: 0%;
   }
-header {
-  box-shadow: 2px 2px 8px rgba(255, 255, 255, 0.4);
-}
+
+  header {
+    box-shadow: 2px 2px 8px rgba(255, 255, 255, 0.4);
+    padding: 2%;
+  }
 
 
   header h1 {
     font-size: 30px;
+    color: rgb(150, 178, 255);
   }
 
   header h2 {
     font-size: 20px;
     margin-top: 5px;
+    color: rgb(150, 178, 255);
+  }
+
+  .header-color-projects {
+    h1 {
+    color: rgb(219, 162, 83);
+    }
+    h2 {
+      color: rgb(219, 162, 83);
+    }
+  }
+
+  .header-color-contact {
+    h1 {
+    color: white;
+    }
+    h2 {
+      color: white;
+    }
+  }
+
+  .header-color-resume {
+    h1 {
+      color: rgb(149, 149, 149);
+    }
+    h2 {
+      color: rgb(149, 149, 149);
+    }
   }
 
   header nav ul li {
     display: block;
-    margin: 10px 0;
+    margin: 5px 0;
+    font-size: 1rem;
   }
 
-  .aboutMe_container, .contact-content, .projects, .resume_container {
+  .aboutMe_container,
+  .contact-content,
+  .projects,
+  .resume_container {
     display: block;
     margin: 5%;
+
     h1 {
       font-size: 30px;
       margin-top: 1em;

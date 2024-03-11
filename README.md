@@ -11,7 +11,6 @@
   </br>
   ## Table of Contents
   
-- [ECommerce Backend Structure](#ecommerce-backend-structure)
   - [Description](#description)
   - [Table of Contents](#table-of-contents)
   - [Installation](#installation)
@@ -24,13 +23,14 @@
   - [Questions](#questions)
   ## Installation
   
-  probably no need to install this...
+  No installation required. This is a web application that is hosted on the internet. If you would like to run this application locally, you can clone the repository and run `npm install` to install the necessary dependencies. Then you can run `npm run dev` to start the server and navigate to `localhost:3001` in your web browser to view the application.
   </br>
   </br>
   </br>
   ## Usage
-  probably no need to use this...
-  ![Demo video of application running](img.png)
+  To utilize this application, you can navigate to the deployed site at <a href="https://jeremydoran.herokuapp.com/">Jeremy's Tech Portfolio</a>. Once there, you can view my work and contact me for potential job opportunities by utilizing the ```Contact``` page. Learn more about my by visiting the ```About``` page. You can also view my resume by clicking the ```Resume``` link in the navigation bar.
+
+  ![Demo video of application running](src/assets/imgs/portfolio-projects.png)
   </br>
   </br>
   </br>
@@ -39,26 +39,34 @@
   - <a href="https://chat.openai.com/">ChatGPT 3.5</a>
   - <a href="https://github.com/features/copilot?ef_id=_k_CjwKCAiAq4KuBhA6EiwArMAw1FOutqMK0saZxH8FwReh32EgrB9jOkJA2Gi0O3-RqIINbuOsOHKHhxoCfKwQAvD_BwE_k_&OCID=AIDcmmc3fhtaow_SEM__k_CjwKCAiAq4KuBhA6EiwArMAw1FOutqMK0saZxH8FwReh32EgrB9jOkJA2Gi0O3-RqIINbuOsOHKHhxoCfKwQAvD_BwE_k_&gad_source=1&gclid=CjwKCAiAq4KuBhA6EiwArMAw1FOutqMK0saZxH8FwReh32EgrB9jOkJA2Gi0O3-RqIINbuOsOHKHhxoCfKwQAvD_BwE">Github CoPilot</a>
   - <a href="https://developer.mozilla.org/en-US/">MDN</a>
-  - <a href="https://www.youtube.com/watch?v=geB_9Ib9YhY">Matt YouTube Walkthrough</a>
+  - <a href="https://www.w3schools.com/">W3Schools</a>
+  - <a href="https://stackoverflow.com/">Stack Overflow</a>
   - <a href="https://leewarrick.com/">Lee Warrick</a> UCONN Bootcamp Instructor
   - <a href="https://github.com/miacias">Mia Ciasullo</a> UCONN Bootcamp Instructor
   - <a href="https://github.com/samanthashleyrose">Samantha Rose</a> UCONN Bootcamp Student
+  - <a href="https://icons8.com/">Icons8</a>
+    - <a target="_blank" href="https://icons8.com/icon/P7UIlhbpWzZm/gmail">Gmail</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a>
+    - <a target="_blank" href="https://icons8.com/icon/s1rwrv9mNnN4/github">GitHub</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a>
+    - <a target="_blank" href="https://icons8.com/icon/13912/facebook">Facebook</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a>
+    - <a target="_blank" href="https://icons8.com/icon/xuvGCOXi8Wyg/linkedin">LinkedIn</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a>
   </br>
   </br>
   </br>
   ## Features
 
-  N/A
+  - An ```About``` page that showcases my work and provides a brief introduction to who I am.
+  - A ```Contact``` page that allows users to send me an email directly from the site.
+  - A ```Resume``` link that allows users to view my resume.
+  - A ```Projects``` page that showcases my work and provides links to the deployed applications as well as the GitHub repositories.
+  - A download link for my resume.
+  - A navigation bar that allows users to easily navigate the site.
+  - A footer that contains links to my social media profiles.
   </br>
-  <a target="_blank" href="https://icons8.com/icon/P7UIlhbpWzZm/gmail">Gmail</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a>
-  <a target="_blank" href="https://icons8.com/icon/s1rwrv9mNnN4/github">GitHub</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a>
-  <a target="_blank" href="https://icons8.com/icon/13912/facebook">Facebook</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a>
-  <a target="_blank" href="https://icons8.com/icon/xuvGCOXi8Wyg/linkedin">LinkedIn</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a>
   </br>
   </br>
   ## How to Contribute
   
-  N/A
+  To contribute to this project, please contact the creator of this project via the contact information provided below.<br>Otherwise, feel free to fork the <a href="https://github.com/mighty-little-coder/jeremy-s_tech_portfolio">repository</a> and make changes as you see fit. If you think the changes would benefit the project, please submit a pull request.
   </br>
   </br>
   </br>
