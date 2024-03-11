@@ -181,6 +181,53 @@ header nav ul li.active {
   font-size: 20px;
 }
 
+.popup-message {
+  position: fixed;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #4caf50;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  z-index: 1000;
+  transition: 6ms;
+  animation: fadeIn 0.5s ease-in-out forwards;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translate(-50%, 20px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translate(-50%, 0);
+  }
+}
+
+.fade-out {
+  animation: fadeOut 0.5s ease-in-out forwards;
+}
+
+@keyframes fadeOut {
+  from {
+    opacity: 1;
+    transform: translate(-50%, 0);
+  }
+
+  to {
+    opacity: 0;
+    transform: translate(-50%, 20px);
+  }
+}
+
+.popup-message p {
+  margin: 6%;
+}
+
 /* PROJECT CARDS */
 .projects {
   background-color: rgba(85, 85, 85, 0.7);
@@ -474,8 +521,9 @@ footer nav ul li a:hover {
 
   .header-color-projects {
     h1 {
-    color: rgb(219, 162, 83);
+      color: rgb(219, 162, 83);
     }
+
     h2 {
       color: rgb(219, 162, 83);
     }
@@ -483,8 +531,9 @@ footer nav ul li a:hover {
 
   .header-color-contact {
     h1 {
-    color: white;
+      color: white;
     }
+
     h2 {
       color: white;
     }
@@ -494,6 +543,7 @@ footer nav ul li a:hover {
     h1 {
       color: rgb(149, 149, 149);
     }
+
     h2 {
       color: rgb(149, 149, 149);
     }
